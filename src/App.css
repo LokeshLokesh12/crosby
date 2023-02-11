@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+/* h1{
+    font-family: 'Lora', serif;
+    font-style: italic;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    margin: 0 !important;
+}
+
+header{
+    padding: 10px ;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #0000008f; */
+    background-color: #000000af;
+    transition: .2s ease-in;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+.center ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 400px;
+    text-transform: capitalize;
+    margin: 0%;
+}
+.right ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    width: 100px;
+    gap: 30px;
+}
+.main-body{
+    /* background-image: url(./images/Header_02_022-copy.jpg); */
+    background-image: url(../public/images/Header_02_022-copy.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.main-body .main-body-content {
+    display: flex;
+    margin-top: 50px !important;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-body .main-body-content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    font-weight: 100;
+}
+.main-body .main-body-content a{
+    background-color: gray;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 60px;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: 200;
+
+}
+.main-body .main-body-content a:hover{
+    background-color: #fff;
+    color: gray;
+}
+.Favorites{
+    text-align: center;
+    min-height: 100vh;
+    background-color: #38383b;
+    padding: 50px 0 ;
+    color: #fff;
+}
+.Favorites ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 0;
+
+}
+.Favorites h1{
+   font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: capitalize; 
+}
+.Favorites ul li img{
+    height: 520px;
+    width: 100%;
+}
+.Favorites ul li h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin: 30px auto;
+}
+.Favorites ul li a{
+    background-color: gray;
+     margin-top: 50px !important;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+.back-ground{
+    min-height: 100vh;
+    /* background-image: url(./images/Header_04_008-copy.jpg); */
+    background-image: url(../public/images/Header_04_008-copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.journal{
+    /* background-color: #a8a6a1; */
+    background-color: #38383b;
+    padding: 100px 100px 50px;
+    text-align: center;
+    min-height: 100vh;
+    color: #fff;
+
+}
+.journal h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: capitalize; 
+}
+.journal ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 0;
+}
+.journal ul li img{
+ height: 400px;
+ width: 600px;
+}
+.journal ul li img{
+ height: 400px;
+ width: 600px;
+}
+.journal ul li h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: capitalize; 
+    margin: 30px auto 0 !important;
+}
+.journal ul li p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: 300;
+    text-transform: capitalize; 
+    line-height: 2;
+    margin: 20px 0 50px 0 !important;
+}
+.journal ul li a{
+    background-color: #fff;
+    margin-top: 50px !important;
+   color: gray;
+   text-decoration: none;
+   padding: 20px 30px;
+   font-size: 1.3em;
+   text-transform: capitalize;
+   font-weight: 100;
+}
+.journal-info{
+    background-color: #38383b;
+    padding: 100px 100px 50px;
+    text-align: center;
+    min-height: 100vh;
+    color: #fff;
+}
+.journal-info h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    margin: 50px 0 ;
+    font-weight: 300;
+    text-transform: capitalize; 
+}
+.journal-info p{
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 1.3em;
+    font-weight: 100;
+    text-transform: capitalize; 
+    line-height: 2;
+    margin: 50px 0 ;
+    
+}
+.journal-info img{
+  height: 350px;
+  width: 500px;
+}
+.journal-info .para{
+    width: 40vw;
+    margin: auto;
+}
+
+.grow-up{
+    text-align: center;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    /* background-image: url(./images/Texture_12_003-1-copy.jpg); */
+    background-image: url(../public/images/Texture_12_003-1-copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grow-up .grow-up-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.grow-up .grow-up-content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: capitalize; 
+}
+.grow-up .grow-up-content input{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    color: #000;
+}
+.grow-up .grow-up-content input::placeholder{
+    color: #a8a6a19f;
+    
+}
+.grow-up .grow-up-content .btn{
+    font-family: 'Times New Roman', Times, serif;
+        padding: 10px 30px;
+    border-radius: 0;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #a8a6a1;
+}
+.gift-card{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 150px !important;
+    background-color: #a8a6a1;
+    color: #fff;
+
+}
+.gift-card p{
+    width: 550px;    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: capitalize; 
+    line-height: 2;
+    padding: 50px 0!important;
+
+}
+.gift-card img{
+    height: 650px;
+    width: 550px;    
+
+}
+.gift-card h1{
+    font-family: 'Lora', serif;
+    font-style: italic; 
+    font-size: 2.5em;
+    font-weight: 300;
+    text-transform: capitalize; 
+
+}
+.gift-card .btn{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px 20px;
+    font-size: 1.5em;
+    color: #a8a6a1;
+    background-color: #fff ;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 0%;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 100px;
+  background-color: #38383b;
+  color: #fff;
+  font-size: 1.3em;
+}
+footer a{
+  font-family: 'Lora', serif;
+  font-style: italic; 
+  padding: 5px 10px;
+  font-size: 1em;
+  font-weight: 400;
+  color: #38383b;
+  background-color: #fff ;
+  text-decoration: none;
+}
+.shop{
+    min-height: 100vh;
+    text-align: center;
+    background-color: #38383b;
+    color: #fff;
+}
+.shop .shop-content {
+    padding: 100px 100px 30px;
+}
+.shop .shop-content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    margin: 50px 0 30px 0;
+    font-weight: 300;
+    text-transform: capitalize; 
+}
+.shop .shop-content p{
+    width: 50%;
+    text-align: center;
+    margin: auto;    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: 300;
+    text-transform: capitalize; 
+    line-height: 2;
+    /* padding: 50px 0!important; */
+}
+
+.shop .shop-content ul{
+    display: flex;
+    margin: auto;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 50px 0;
+    flex-wrap: wrap;
+    padding: 30px 0 0 0;
+
+}
+.shop .shop-content ul li img{
+    height: 520px;
+    width: 350px;
+}
+.shop .shop-content ul li a{
+    text-decoration: none !important;
+    color: #fff;
+}
+.shop .shop-content ul li a p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.1em;
+    font-weight: 300;
+    text-transform: capitalize; 
+    line-height: 2;
+}
+
+.shop .shop-content ul li h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin: 10px auto 5px;
+}
+.product-body{
+    min-height: 100vh;
+    text-align: center;
+    background-color: #38383b;
+    color: #fff;
+}
+.product-container{
+    display: flex;
+    margin: auto;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 100px ;
+
+}
+
+.product-container p{
+    width: 650px;    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: capitalize; 
+    line-height: 2;
+    padding: 0px 0 50px !important;
+ 
+
+}
+
+.product-container img{
+    height: 650px;
+    width: 550px;    
+
+}
+.product-container h1{
+    font-family: 'Lora', serif;
+    font-style: italic; 
+    font-size: 2.5em;
+    font-weight: 300;
+    margin: 0 0 50px;
+    text-transform: capitalize; 
+
+}
+.product-container .btn{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px 20px;
+   font-size: 1.5em;
+   color: #a8a6a1;
+   background-color: #fff ;
+   text-decoration: none;
+}
+
+
+.story {
+    min-height: 100vh;
+    text-align: center;
+    background-color: #38383b;
+    color: #fff;
+    text-align: center;
+}
+.story .background{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/public/images/Texture_15_066-copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+}
+.story .background h1{
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 5em;
+    margin: 50px 0 30px 0;
+    font-weight: 300;
+    text-transform: capitalize; 
+}
+.story .shorts h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 2.5em;
+    margin: auto;
+    width: 55%;
+    padding: 100px;
+    font-weight: 100;
+    text-transform: capitalize; 
+}
+.shorts{
+    padding: 0 0 100px 0;
+}
+.story-info p{
+    width: 50%;  
+    margin: auto;  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: capitalize; 
+    line-height: 2;
+    padding: 50px 0!important;
+}
+.contact{
+    min-height: 100vh;
+    text-align: center;
+    background-color: #38383b;
+    background-image: url(../public/images/Texture_12_003-1-copy.jpg);
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.contact p {
+    width: 50%;
+
+    /* margin: auto;   */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: capitalize; 
+    line-height: 2;
+    padding: 10px 0!important;
+}
+.contact h1{
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 5em;
+    margin: 50px 0 0px 0;
+    font-weight: 300;
+    text-transform: capitalize; 
+}
+.contact button{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px 20px;
+    font-size: 1.5em;
+    color: #a8a6a1;
+    background-color: #fff ;
+    text-decoration: none;
+}
+.form{
+    height: 100vh;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    /* display: flex;    */
+    align-items: center;
+    justify-content: center;
+   padding: 10% 25%;
+   background-color: #000000a3;
+
+}
+.form-content{
+    background-color: #fff;
+    border-radius: 20px;
+    animation: loginpopup .4s;
+    padding: 30px 50px 50px;
+}
+.invalid_input{
+    animation:  invalid_input 300ms;
+    border-bottom: #EB4F4F 5px solid !important; 
+    color: #EB4F4F !important;
+
+}
+.close{
+    align-items: center;
+    justify-content: space-between;
+}
+.close i:hover{
+    cursor: pointer;
+    
+}
+
+@keyframes invalid_input {
+    25%{
+    transform: translateX(4px);
+    }    
+    50%{
+    transform: translateX(-4px);
+    }    
+    75%{
+    transform: translateX(4px);
+    }    
+}
+@keyframes loginpopup {
+    0%{
+    scale: 0;
+    }
+    100%{
+    scale: 100%;
+    }
+}
