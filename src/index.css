@@ -15,6 +15,15 @@ code {
   .form{
     padding: 5% !important;
   }
+  .shop .shop-content {
+    padding: 70px 30px 30px !important;
+  }
+  .shop .shop-content h1{
+    margin: 30px !important;
+  }
+  .shop .shop-content p{
+    width:100% !important;
+  }
 }
 @media only screen and (max-width: 780px){
   .Favorites ul {

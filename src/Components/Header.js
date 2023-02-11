@@ -8,12 +8,14 @@ useEffect(() => {
     let scroll = window.pageYOffset;
     if(offset > scroll){
         console.log('scroll up')
-        header.style.opacity = 1
+        // header.style.opacity = 1
+        header.style.display = 'flex'
         offset = scroll;
     }
     else if(offset < scroll){
         console.log('scroll down')
-        header.style.opacity = 0
+        // header.style.opacity = 0
+        header.style.display = 'none'
         offset = scroll;
     }
     })

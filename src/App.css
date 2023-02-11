@@ -153,6 +153,7 @@ header a{
     font-size: 2em;
     font-weight: 300;
     text-transform: capitalize; 
+    margin: 50px;
 }
 .Favorites ul li img{
     height: 520px;
