@@ -157,7 +157,7 @@ let newArray = arr.filter((data)=>{
                     return(
                         <div className="product-body">
                             <div className="product-container">
-                                <img src={data.img} alt="" />
+                                <img src={data.img} loading='lazy' alt={data.name} />
                                 <div className="product-content">
                                     <h1>{data.name}</h1>
                                     <div className="sip">

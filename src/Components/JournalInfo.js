@@ -65,7 +65,7 @@ function JournalInfo() {
                         <div className="" key={data.id}>
                         <p>{data.data} , {data.author}</p>
                         <h1>{data.heading}</h1>
-                        <img src={data.image} alt=""/>
+                        <img src={data.image} loading='lazy' alt=""/>
                         <div className="para">
                             {data.description.map((data)=>{
                                 return(
