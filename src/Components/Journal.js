@@ -1,10 +1,9 @@
 import React,{Fragment} from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+// import Header from "./Header";
 function Journal() {
   return (
     <Fragment>
-        <Header/>
+        {/* <Header/> */}
         <div className="journal">
         <h1>the journal</h1>
         <ul>
@@ -22,7 +21,6 @@ function Journal() {
             </li>
         </ul>
     </div>
-    <Footer/>
     </Fragment>
   )
 }

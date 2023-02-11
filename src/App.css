@@ -7,12 +7,18 @@
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
+    /* overflow: hidden; */
+}
+a:hover{
+    color: #fff;
+    cursor: pointer;
 }
 ul{
     margin: 0 !important;
+    padding: 0% !important;
 }
-
 header{
+    z-index: 100;
     padding: 10px ;
     color: #fff;
     position: fixed;
@@ -45,6 +51,47 @@ header a{
     width: 100px;
     gap: 30px;
 }
+.ResponseNav{
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed !important;
+    background-color: #38383b;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: .3s;
+    transform: translateY(-100%) ;
+}
+.ResponseNav_visible{
+    transform: translateY(0%) ;
+}
+.ResponseNav ul li{
+    margin-top: 50px !important;
+    color: gray;
+    text-decoration: none;
+    /* padding: 20px 30px; */
+    font-size: 1.3em;
+    text-transform: capitalize;
+    font-weight: 100;
+    list-style: none;
+    text-decoration: none;
+}
+.ResponseNav ul a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: #fff;
+    
+}
+.fa-bars{
+    display: none;
+}
+
 .main-body{
     /* background-image: url(./images/Header_02_022-copy.jpg); */
     background-image: url(../public/images/Header_02_022-copy.jpg);
@@ -146,9 +193,10 @@ header a{
 }
 .journal h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 300;
     text-transform: capitalize; 
+    margin: 0px 0px 50px;
 }
 .journal ul{
     display: flex;
@@ -158,10 +206,7 @@ header a{
     gap: 30px;
     margin: 50px 0;
 }
-.journal ul li img{
- height: 400px;
- width: 600px;
-}
+
 .journal ul li img{
  height: 400px;
  width: 600px;
@@ -354,7 +399,7 @@ footer a{
     font-weight: 300;
     text-transform: capitalize; 
     line-height: 2;
-    /* padding: 50px 0!important; */
+    padding: 0 0 30px 0!important;
 }
 
 .shop .shop-content ul{
@@ -502,7 +547,6 @@ footer a{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -536,7 +580,7 @@ footer a{
     text-decoration: none;
 }
 .form{
-    height: 100vh;
+    min-height: 100vh;
     z-index: 10;
     position: absolute;
     top: 0;
@@ -547,6 +591,7 @@ footer a{
     /* display: flex;    */
     align-items: center;
     justify-content: center;
+    z-index: 1000;
    padding: 10% 25%;
    background-color: #000000a3;
 
@@ -570,6 +615,13 @@ footer a{
 .close i:hover{
     cursor: pointer;
     
+}
+.footer_right ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    width: 100px;
+    gap: 30px;
 }
 
 @keyframes invalid_input {

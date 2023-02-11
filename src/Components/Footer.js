@@ -4,7 +4,7 @@ function Footer() {
     <Fragment>
         <footer>
             <h1>crosby</h1>
-            <div className="right">
+            <div className="footer_right">
             <ul>
                 <li>
                     <i className="fa fa-instagram" aria-hidden="true"></i>
@@ -17,7 +17,7 @@ function Footer() {
                 </li>
             </ul>
             </div>
-            <a href="/shop">shop now</a>
+            <a className="footer_shop" href="/shop">shop now</a>
         </footer>
 
     </Fragment>
