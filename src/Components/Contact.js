@@ -1,6 +1,6 @@
 import React,{Fragment} from 'react'
 import Header from './Header'
-import Footer from './Footer'
+// import Footer from './Footer'
 import Form from './Form'
 function Contact() {
   let handle =(e)=>{
@@ -18,7 +18,7 @@ function Contact() {
             <p>The following text is placeholder known as “lorem ipsum,” which is scrambled Latin used by designers to mimic real copy. Lorem ipsum dolor sit amet nullam.</p>
             <button onClick={handle}>get in touch</button>
         </div>
-        <Footer/>
+        {/* <Footer/> */}
    </Fragment>
   )
 }
