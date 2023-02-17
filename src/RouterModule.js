@@ -8,6 +8,16 @@ import Story from "./Components/Story";
 import Contact from "./Components/Contact";
 import Journal from "./Components/Journal";
 import JournalInfo from "./Components/JournalInfo";
+import Header from "./Components/Header";
+
+let domjournal = ()=>{
+  return(
+    <Fragment>
+      <Header/>
+      <Journal/>
+    </Fragment>
+  )
+}
 function RourerModule() {
   return (
     <Fragment>
@@ -18,7 +28,8 @@ function RourerModule() {
               <Route Exect path='/products' element={<Product/>}></Route>           
               <Route Exect path='/ourstory' element={<Story/>}></Route>           
               <Route Exect path='/contact' element={<Contact/>}></Route>           
-              <Route Exect path='/journal' element={<Journal/>}></Route>           
+              {/* <Route Exect path='/journal' element={<Journal/>}></Route>    */}
+              <Route Exect path='/journal' element={domjournal()}></Route>   
               <Route Exect path='/journal-info' element={<JournalInfo/>}></Route>           
             </Routes>
         </Router>
